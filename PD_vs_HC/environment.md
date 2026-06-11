@@ -10,6 +10,7 @@
 7. If you use Jupyter:
 8. pip install notebook ipykernel
 9. python -m ipykernel install --user --name llm_pd_env --display-name "Python (llm_pd_env)"
+10. jupyter notebook --no-browser --port=8888
 
 ## Check and fix compatible version to run code in GPU
 Install the same PyTorch version/build that works outside the venv.
